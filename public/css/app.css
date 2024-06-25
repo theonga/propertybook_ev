@@ -1,0 +1,101 @@
+ body {
+    scroll-behavior: smooth;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+}
+.section {
+    padding: 40px 0;
+}
+nav a {
+    cursor: pointer;
+}
+
+.sec-navbar{
+    background-color: rgb(217, 211, 211);
+}
+
+.sec-navbar span{
+    margin-right: 10px;
+}
+
+.tab-title{
+    cursor: pointer; 
+    font-size: 13px;
+
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+}
+
+.tab-title-inactive{
+   background-color: white;
+   color: black
+}
+.txt-sm{
+    font-size: 16px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.price{
+    font-size: 50px;
+}
+
+.service{
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.19), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+    padding: 10px;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+
+.text-gray{
+    color: rgb(92, 91, 91);
+    font-size: 13px;
+}
+.mt-6{
+    margin-top: 4rem;
+}
+
+footer{
+    padding-left: 20rem !important;
+    padding-right: 20rem !important;
+    padding-bottom: 4rem;
+}
+
+footer h2{
+    font-weight: bolder;
+    margin-top: 4rem;
+}
+
+.rounded-4{
+    border-radius: 10px;
+
+}
+
+@media only screen and (max-width: 600px) {
+  .text-sm-2 {
+    font-size: 13px;
+  }
+  .mt-sm-6{
+    margin-top: 4rem;
+  }
+
+  .tab-title{
+        font-size: 13px;
+        padding-left: 10px;
+        padding-right:10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-radius: 10px;
+    }
+
+    footer{
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+    }
+}
