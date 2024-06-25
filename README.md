@@ -22,8 +22,8 @@ This is a Laravel-based web application that includes the following features:
 1. **Clone the repository:**
 
     ```bash
-    git clone https://github.com/your-repo/your-laravel-app.git
-    cd your-laravel-app
+    git clone https://github.com/theonga/propertybook_ev 
+    cd propertybook_ev
     ```
 
 2. **Install dependencies:**
@@ -52,7 +52,7 @@ This is a Laravel-based web application that includes the following features:
     Ensure you have a SQLite database file or configure your preferred database in the `.env` file.
 
     ```bash
-    touch database/database.sqlite
+    touch database.sqlite
     ```
 
     Update your `.env` file with the following:
@@ -134,6 +134,9 @@ This is a Laravel-based web application that includes the following features:
     
 - **SectionSeeder:**
     - Seeds the database with initial sections.
+    - Update the images in `/admin`
+    - For Services section, create sub sections that has "Services" as the parent,
+    - For Our Story section, create sub sections that has "Story" as the parent, e.g the Mission, Vision sections
 
 ## Customization
 
