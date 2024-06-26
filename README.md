@@ -134,9 +134,9 @@ This is a Laravel-based web application that includes the following features:
     
 - **SectionSeeder:**
     - Seeds the database with initial sections.
-    - Update the images in `/admin`
+    - Update the section images in `/admin`
     - For Services section, create sub sections that has "Services" as the parent,
-    - For Our Story section, create sub sections that has "Story" as the parent, e.g the Mission, Vision sections
+    - For Our Story section, create sub sections that has "Our Team **" as the parent, e.g the Mission, Vision sections.
 
 ## Customization
 

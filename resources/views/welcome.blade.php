@@ -83,14 +83,14 @@
         </div>
     </section>
 
-    <section class="section mt-6" id="services">
+    <section class="section mt-4" id="services">
         <div class="text-center d-flex justify-content-center">
             <h2 class="text-center border border-primary text-primary rounded-4 txt-sm ">Services</h2>
         </div>
          <div class="container mt-6">
-            <div class="row ">
+            <div class="grid-container">
                 @foreach($services->subSections as $subSection)
-                <div class="col-md-4 col-sm-12 service g-3">
+                <div class="grid-item">
                      <img height="40" width="40" src="{{ asset('storage/' . $subSection->image) }}" alt="{{ $subSection->title }}" class="img-fluid mt-2">
                      <h3 class="mt-4 fs-4">{{ $subSection->title }}</h3>
                      <p class="text-gray">{{ $subSection->content }}</p>
@@ -100,23 +100,23 @@
         </div>
     </section>
 
-    <section class="section mt-6" id="pricing">
+    <section class="section mt-4" id="pricing">
         <div class="text-center d-flex justify-content-center">
             <h2 class="text-center border border-primary text-primary rounded-4 txt-sm ">Pricing</h2>
         </div>
 
-        <div class="container mt-6">
-           <div class="row">
+        <div class="mt-6">
+           <div class="container grid-container">
                @foreach ($pricings as $price)
-                  <div class="col-md-4 col-sm-12 service g-3">
+                  <div class="grid-item ">
                         <div class="text-center d-flex justify-content-center mt-4">
                             <h3 class="text-center border border-primary text-primary rounded-4 txt-sm ">{{ $price->package }}</h3>
                         </div>
                         
                         <p class="text-gray">{{ $price->description }}</p>
-                        <h4 class=" fs-4"><sup>$</sup><span class="price">{{ $price->price }}</span><sub>/mo</sub></h4>
+                        <h4 class="text-center fs-4"><sup>$</sup><span class="price">{{ $price->price }}</span><sub>/mo</sub></h4>
                         
-                        <div class="text-center d-flex justify-content-center mt-2">
+                        <div class="text-center d-flex justify-content-center mt-4">
                            <a class="btn btn-light px-4 text-uppercase border border-primary  text-primary fw-bold fs-sm-6">Get Started</a>
                         </div>
                         
@@ -133,12 +133,12 @@
     </section>
     
 
-    <footer class="section bg-primary">
+    <footer class="bg-primary">
         <div class="text-center">
             <h2 class="text-center text-white">{{$footer->title}}</h2>
             <p class="text-white mt-4">{{ $footer->content }}</p>
-             <div class="mt-4">
-                <a class="border text-decoration-none border-white text-white rounded-4 p-2 text-uppercase fw-bold fs-sm-6">Get Started</a>
+            <div class="text-center d-flex justify-content-center mt-4">
+                <a class="btn btn-light px-4 text-uppercase border border-primary  text-primary fw-bold fs-sm-6">Get Started</a>
             </div>
         </div>
     </footer>
