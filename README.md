@@ -49,7 +49,13 @@ This is a Laravel-based web application that includes the following features:
 
 5. **Set up the database:**
 
+    I included a database.sqlite in the root DIR, in case you just want to start from there. But if you need to start your own follow the steps below.
+
     Ensure you have a SQLite database file or configure your preferred database in the `.env` file.
+
+    ```bash
+    rm database.sqlite
+    ```
 
     ```bash
     touch database.sqlite
