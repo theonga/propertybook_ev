@@ -1,5 +1,7 @@
 # PropertyBook Assessment Laravel Application
 
+`Note` I included a video that shows the assessment.
+
 ## Introduction
 
 This is a Laravel-based web application that includes the following features:
