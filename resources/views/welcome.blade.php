@@ -25,7 +25,7 @@
             </button>
             <div class="collapse navbar-collapse ml-4" id="navbarNav">
                 <ul class="navbar-nav">
-                    <li class="nav-item"><a class="nav-link" href="#home" style="color: white;">Dashboard</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#home" style="color: white;">Home</a></li>
                     <li class="nav-item"><a class="nav-link " href="#services" style="color: #d8c9c9;">Services</a></li>
                     <li class="nav-item"><a class="nav-link " href="#pricing" style="color: #d8c9c9;">Pricing</a></li>
                 </ul>
